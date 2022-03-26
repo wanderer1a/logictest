@@ -9,7 +9,7 @@ def foobar():
         if i % 5 == 0:
             printable = False
             print('bar', end='')
-        if i <= 100 and printable:
+        if printable:
             print(f'{i}', end='')
         if i < 100:
             print(', ', end='')
